@@ -42,9 +42,9 @@ export const Router = () => {
           </Switch>
         )}
       />
-      <Router path="*">
+      <Route path="*">
         <Page404 />
-      </Router>
+      </Route>
     </Switch>
   );
 };
